@@ -1,0 +1,29 @@
+1. git init
+2. git add .
+3. git commit -m "Message"
+4. git remote add origin <remote url> 
+
+remote url example: https://github.com/Rishikanomula/JFS_VI_SEM.git
+
+5. git push origin main 
+or git push origin master to change master to main we use this command: git branch -M main
+
+to check what branch you are in we use: git branch
+
+-----------------------------------------------------------------------------------------------------
+
+if you can add any files in local repository or you can change the existing files in local repository
+
+1. git status
+2. git add .
+3. git commit -m "message"
+4. git push origin main 
+
+-----------------------------------------------------------------------------------------------------
+
+if you want to retrieve the remote repository to local repo 
+
+1. git clone <remote url> 
+the url can be any repo from GitHub 
+
+------------------------------------------------------------------------------------------------------
