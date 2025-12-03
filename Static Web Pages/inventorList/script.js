@@ -66,7 +66,7 @@ document.getElementById("languageSelect").addEventListener("change", function ()
     // Apply special square + glow only to James Gosling
     if (selected === "java") {
         img.classList.add("square");
-        img.classList.add("glow");
+        img.classList.add("glow-frame");
     }
 
     // Show info section

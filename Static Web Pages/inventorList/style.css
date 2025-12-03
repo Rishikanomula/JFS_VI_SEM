@@ -53,9 +53,42 @@ select {
     border-radius: 0 !important;   /* makes it a square */
 }
 
+/* .glow {
+    box-shadow: 0 0 20px rgb(183, 230, 241), 0 0 40px rgb(200, 173, 236);
+} */
 .glow {
-    box-shadow: 0 0 20px rgb(255, 255, 0), 0 0 40px rgb(255, 255, 0);
+    animation: pulseGlow 1.5s infinite alternate;
 }
+
+@keyframes pulseGlow {
+    from {
+        box-shadow: 
+            0 0 30px #a974ee,
+            0 0 60px #6682e9,
+            0 0 100px #268be4;
+           
+    }
+    to {
+        box-shadow: 
+            0 0 60px #5eef9f,
+            0 0 120px #ffea00,
+            0 0 140px #ec8f59;
+            
+    }
+}
+
+.glow-frame {
+    border: 6px solid rgb(255, 255, 255);          /* Frame color */
+    padding: 5px;                    /* Space between image and frame */
+    border-radius: 10px;             /* Slight rounding */
+    box-shadow: 
+        0 0 40px #28f8ff,
+        0 0 80px #00ffd0,
+        0 0 120px #00c8ff,
+        0 0 160px #0088ff;
+    transition: 0.3s ease-in-out;
+}
+
 
 /* Info box styling */
 .info-box {
