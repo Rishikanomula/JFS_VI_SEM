@@ -1,0 +1,10 @@
+James Gosling - java
+Dennis Richie - C
+Guido van Rossum - python
+Bjarn Strostrip - C++
+JavaScript
+PHP
+Ruby
+C#
+COBOL
+Lisp

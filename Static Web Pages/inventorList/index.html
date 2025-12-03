@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Language Inventors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="title">Programming Language Inventors</h1>
+
+    <div class="selector-row">
+        <label for="languageSelect">Select a Programming Language:</label>
+        <select id="languageSelect">
+            <option value="">-- Select --</option>
+
+            <option value="java">Java – James Gosling</option>
+            <option value="c">C – Dennis Ritchie</option>
+            <option value="python">Python – Guido van Rossum</option>
+            <option value="cpp">C++ – Bjarne Stroustrup</option>
+
+            <option value="javascript">JavaScript – Brendan Eich</option>
+            <option value="php">PHP – Rasmus Lerdorf</option>
+            <option value="ruby">Ruby – Yukihiro Matsumoto</option>
+            <option value="csharp">C# – Anders Hejlsberg</option>
+            <option value="cobol">COBOL – Grace Hopper</option>
+            <option value="lisp">Lisp – John McCarthy</option>
+        </select>
+    </div>
+
+    <div id="infoSection" class="info-container" style="display: none;">
+        <img id="inventorImg" class="profile-pic" src="" alt="Inventor Image">
+        <div id="inventorInfo" class="info-box"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* Center everything */
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.selector-row {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center dropdown row */
+    gap: 10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+select {
+    padding: 6px;
+    font-size: 16px;
+}
+
+/* Center the image + info box container */
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 40px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Circular image */
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333; /* Optional nice border */
+}
+
+/* Only James Gosling's image becomes square */
+.square {
+    border-radius: 0 !important;   /* makes it a square */
+}
+
+/* Info box styling */
+.info-box {
+    padding: 20px 25px;
+    border: 2px solid #ccc;
+    width: 400px;
+    font-size: 18px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* soft shadow */
+}
