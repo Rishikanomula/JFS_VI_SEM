@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Course Registration From</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Course Registration Form</h2>
+            <form id="regForm">
+                <label>Student Name: </label>
+                <input type="text" id="name" placeholder="Enter Your Name"> 
+                <br>
+                <label>Select Subjects: </label><br>
+
+                <div class="subject-list">
+                    <label>
+                        <input type="checkbox" class="subject" value="1000"> Data Structures (Rs.1000)
+                    </label><br>
+                    <label>
+                        <input type="checkbox" class="subject" value="1200"> Operating Systems (Rs.1200)
+                    </label><br>
+                    <label>
+                        <input type="checkbox" class="subject" value="1500"> DBMS (Rs.1500)
+                    </label><br>
+                    <label>
+                        <input type="checkbox" class="subject" value="1800"> Computer Networks (Rs.1800)
+                    </label><br>
+                    <label>
+                        <input type="checkbox" class="subject" value="2000"> Java Programming (Rs.2000)
+                    </label><br>
+                    <label>
+                        <input type="checkbox" class="subject" value="5000"> Java Full Stack Development (Rs.5000)
+                    </label><br>
+                    <label>
+                        <input type="checkbox" class="subject" value="6000"> Competitive Programming (Rs.6000)
+                    </label>
+                </div>
+                <div class="total-box">
+                    Total Registration Fee: <span id="total">₹0</span>
+                </div>
+                <button type="submit">Submit Registration</button>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
