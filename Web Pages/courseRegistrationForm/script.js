@@ -13,7 +13,7 @@ subjects.forEach(item => {
 });
 });
 
-// Optional Form Validation
+// Optional Form Validation and Summary Display in pop up 
 // document.getElementById("regForm").addEventListener("submit", function(e) {
 //     e.preventDefault();
 //     e.preventDefault();
@@ -40,6 +40,7 @@ subjects.forEach(item => {
 //     alert(message);
 // });
 
+// Form Validation and Summary Display in the summary box
 document.getElementById("regForm").addEventListener("submit", function(e) {
     e.preventDefault();
 
